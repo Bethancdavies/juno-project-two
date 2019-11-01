@@ -1,0 +1,19 @@
+// mixins for Fonts used
+@mixin pacifico($size, $lh, $color){
+    font-family: 'Pacifico', cursive;
+    font-size: $size;
+    font-weight: 400;
+    line-height: $lh;
+    color:$color;
+}
+
+@mixin lato($size, $weight, $lh, $color){
+    font-family:'Lato', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $lh;
+    color:$color;
+}
+
+
+// mixins for Media Queries

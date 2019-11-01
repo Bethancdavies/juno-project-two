@@ -1,0 +1,21 @@
+// General Styling 
+html{
+    font-size: 62.5%
+} 
+
+// more general styling here for things
+
+h1{
+    @include pacifico(6.8rem, 64px, $dark-blue);
+}  
+// there seems to be different size font for what appears to be all h1's ask design
+
+
+    
+
+
+
+// 
+
+
+

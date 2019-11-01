@@ -6,34 +6,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/a676affea4.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Pacifico&display=swap" rel="stylesheet">
     <title>Project Two Bethan Davies</title>
 </head>
 <!-- MAIN PAGE reminder that u-r-using-kebab-case -->
-<body>  
+
+<body>
     <!-- START OF HEADER -->
     <header> 
-    <div class="flex-nav"> 
-    <h6>Textilee</h6>
-    <nav class="mainmenu">
-        <ul>
-            <li> <a href="index.html">home</a></li>
-            <li> <a href="#">about</a></li>
-            <li> <a href="blog.html">blog</a></li>
-            <li> <a href="contact.html">contact</a></li>
-        </ul>
-    </nav>
-    </div>
-    <h1>Textiles for all projects in mind</h1> 
+    <div class="wrapper">
+        <div class="flex-nav">
+            <h6>Textilee</h6>
+            <nav class="main-menu">
+                <ul>
+                    <li> <a href="index.html">home</a></li>
+                    <li> <a href="#">about</a></li>
+                    <li> <a href="blog.html">blog</a></li>
+                    <li> <a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Textiles for all projects in mind</h1>  
+        </div>
     </header>
-    <!-- END OF HEADER -->  
+    <!-- END OF HEADER -->
 
-<!-- START OF FIRST SECTION -->
-<section> 
-<img src="./textilee-assets/home-box-header.png" alt="pair of scissors of multicolred thread spools">
-</section>
-<!-- END OF FIRST SECTION -->
+    <!-- START OF FIRST SECTION/SCISSOR SECTION -->
+    <section class="scissors-section">
+        <img src="./textilee-assets/home-box-header.png" alt="zoomed in pictureof scissors over colorful thread">
+        <!-- WRAPPER AND FLEX DIV-->
+        <div class="wrapper">
+            <div>
+                <h2>Learn New Techniques</h2>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam culpa quis assumenda, animi fuga
+                    necessitatibus voluptatem eligendi! At, ratione quibusdam molestiae, earum odio perferendis aliquid
+                    voluptas explicabo consequuntur officiis ipsa. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Laboriosam cumque animi voluptas veniam sed blanditiis earum! At doloribus eum blanditiis
+                    totam, quis, nobis quaerat esse reprehenderit veniam odio minima vitae.
+                </p>
+                <button type="button">find out more</button>
+            </div>
+            <div>
+                <img src="./textilee-assets/small-box.jpg" alt="close up shot of person with fabric and sewing kit">
+            </div>
+        </div>
+    </section>
+    <!-- END OF FIRST SECTION/SCISSOR SECTION -->
 
+    <!-- START OF SECOND SECTION/GALLERY SECTION -->
+    <section>
+        <div class="gallery-flex wrapper">
+            <img src="./textilee-assets/gallery-image-1.jpg" alt="grey and monotone spools of yarn and thread">
+            <img src="./textilee-assets/gallery-image-2.jpg" alt="satin sheets with sewing materials laid on it">
+            <img src="./textilee-assets/gallery-image-3.jpg" alt="wooden stand with cubbies for sewing spools">
+        </div>
+    </section>
+    <!-- END OF SECOND SECTION/GALLERY SECTION -->
+    <!-- START OF THIRD SECTION-->
+    <section class="four-features wrapper">
+        <article>
+            <i class="far fa-calendar-check"></i>
+            <h2>Upcoming Events</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis provident fugit odit est, quae numquam
+                sapiente suscipit laudantium esse repellat perferendis alias accusamus eaque officia voluptas veniam
+                vero voluptate voluptatibus!</p>
+        </article>
+        <article>
+            <i class="fas fa-users"></i>
+            <h2>Community</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis provident fugit odit est, quae numquam
+                sapiente suscipit laudantium esse repellat perferendis alias accusamus eaque officia voluptas veniam
+                vero voluptate voluptatibus!</p>
+        </article>
+        <article>
+            <i class="fas fa-scroll"></i>
+            <h2>Blog</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis provident fugit odit est, quae numquam
+                sapiente suscipit laudantium esse repellat perferendis alias accusamus eaque officia voluptas veniam
+                vero voluptate voluptatibus!</p>
+        </article>
+        <article>
+            <i class="fas fa-phone"></i>
+            <h2>Get in touch</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis provident fugit odit est, quae numquam
+                sapiente suscipit laudantium esse repellat perferendis alias accusamus eaque officia voluptas veniam
+                vero voluptate voluptatibus!</p>
+        </article>
+    </section>
+    <!-- END OF THIRD SECTION -->
+    <!-- START OF FOURTH SECTION/TEXT-IMAGE FEATURE -->
+    <section>
+        <div>
+            <img src="./textilee-assets/left-image.jpg" alt="zoomed in picture of pink satiny fabric">
+            <article class="right-text wrapper">
+                <h4>discover our online market</h4>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat officiis sequi magnam at
+                    inventore, iste illum ipsam eaque, sunt minima, quas accusantium expedita repellat in explicabo
+                    consequatur necessitatibus delectus quod!</p>
+                <button type="button">read more</button>
+            </article>
+        </div>
+        <div>
+            <article class="left-text wrapper">
+                <h4>New Locations</h4>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat officiis sequi magnam at
+                    inventore, iste illum ipsam eaque, sunt minima, quas accusantium expedita repellat in explicabo
+                    consequatur necessitatibus delectus quod!</p>
+                <button type="button">read more</button>
+            </article>
+        </div>
+        <div class="bottom-banner"></div>
+    </section>
+    <!-- END OF FOURTH SECTION/TEXT-IMAGE FEATURE -->
+    <!--START OF FIFTH SECTION-->
+    <section> 
+        <div class="wrapper"> 
+        <h2>Search by Style</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque illo, quibusdam recusandae harum voluptate a
+            ratione ea impedit architecto voluptates unde dolorem molestias beatae, magni, earum laboriosam sit at.
+            Fugit.</p>
+        <button type="button">Find out more</button>
+        </div>
+    </section> 
+    <!-- END OF FIFTH SECTION -->
+    <!-- START OF FOOTER --> 
+    <footer> 
+        <div class="wrapper"> 
+<P> Copywright © 2019 Juno College</P>
+        </div>
+    </footer>
 
 
 </body>

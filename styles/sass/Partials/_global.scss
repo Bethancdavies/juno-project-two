@@ -10,7 +10,8 @@ html{
     }
 // stripping of element styling 
 img{ 
-    width: 100%;
+    width: auto; 
+    height: auto;
 }
 ul, 
 li, 
@@ -27,6 +28,9 @@ h6
     list-style: none; 
     text-decoration: none;
 } 
+*{ 
+    border: red 2px solid;
+}
 
 // more general styling here for things, in future if entire project is mainly in one font avoid including in mix-in as the code becomes redundant.
 
@@ -53,4 +57,7 @@ h6{
     @include pacifico(3.0rem,24px,$dark-blue);
     letter-spacing: 1.7px;
 
+} 
+p{ 
+    @include lato (2rem,400,29px,$black);
 }

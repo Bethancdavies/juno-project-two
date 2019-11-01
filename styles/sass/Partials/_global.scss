@@ -1,21 +1,56 @@
 // General Styling 
 html{
-    font-size: 62.5%
+    font-size: 62.5%;
+} 
+// wrapper styling
+    .wrapper {
+        max-width: 1200px;
+        width: 85%;
+        margin: 0 auto;
+    }
+// stripping of element styling 
+img{ 
+    width: 100%;
+}
+ul, 
+li, 
+a, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{ 
+    padding: 0;
+    margin:0; 
+    list-style: none; 
+    text-decoration: none;
 } 
 
-// more general styling here for things
+// more general styling here for things, in future if entire project is mainly in one font avoid including in mix-in as the code becomes redundant.
 
 h1{
-    @include pacifico(6.8rem, 64px, $dark-blue);
-}  
-// there seems to be different size font for what appears to be all h1's ask design
+    @include pacifico (6.8rem,64px,$dark-blue);
+}   
+h2{
+    @include pacifico(4.3rem,58px,$dark-blue);
+    letter-spacing: 2.7px;
+} 
+h3{
+    @include pacifico(4.0rem,58px,$black);
+    letter-spacing: 4.3px;
+} 
+h4{
+    @include pacifico(4.0rem,58px,$white);
+    letter-spacing: 2.5px;
+} 
+h5{
+    @include pacifico(3.5rem,normal,$white);
+}
 
+h6{
+    @include pacifico(3.0rem,24px,$dark-blue);
+    letter-spacing: 1.7px;
 
-    
-
-
-
-// 
-
-
-
+}

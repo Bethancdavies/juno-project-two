@@ -246,8 +246,10 @@ html {
 }
 
 img {
-  width: auto;
-  height: auto;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
 }
 
 ul,
@@ -258,7 +260,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -275,6 +278,8 @@ h1 {
   font-weight: 400;
   line-height: 64px;
   color: #1A315C;
+  padding-top: 40px;
+  width: 60%;
 }
 
 h2 {
@@ -329,8 +334,47 @@ p {
   color: #1e1713;
 }
 
-header {
+.flex-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+}
+
+nav ul {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 29px;
+  color: #1A315C;
+  letter-spacing: 1.4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  padding-left: 30px;
+}
+
+.main-header {
   background-image: url(../textilee-assets/header-home.jpg);
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.scissors {
+  position: relative;
+  top: 10%;
+  width: 55%;
+}
+
+.learn-new-techniques {
+  background: #CCEDFB;
+  height: 70vh;
 }

@@ -1,1 +1,19 @@
-// styling for nav, these will be universal for all pages
+// styling for nav, these will be universal for all pages 
+.flex-nav{
+    display: flex; 
+    justify-content: space-between;    
+    padding-top:20px;
+}
+nav ul{  
+    @include lato(2rem,bold,29px,$dark-blue);
+letter-spacing: 1.4px;
+    display: flex; 
+    li{
+        padding-left:30px;
+    }  
+
+} 
+
+
+
+

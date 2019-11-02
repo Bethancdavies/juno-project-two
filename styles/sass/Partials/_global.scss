@@ -9,10 +9,11 @@ html{
         margin: 0 auto;
     }
 // stripping of element styling 
-img{ 
-    width: auto; 
-    height: auto;
-}
+img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0; 
+    display: block;}
 ul, 
 li, 
 a, 
@@ -21,7 +22,8 @@ h2,
 h3,
 h4,
 h5,
-h6
+h6, 
+p
 { 
     padding: 0;
     margin:0; 
@@ -35,7 +37,9 @@ h6
 // more general styling here for things, in future if entire project is mainly in one font avoid including in mix-in as the code becomes redundant.
 
 h1{
-    @include pacifico (6.8rem,64px,$dark-blue);
+    @include pacifico (6.8rem,64px,$dark-blue); 
+   padding-top: 40px; 
+   width: 60%;
 }   
 h2{
     @include pacifico(4.3rem,58px,$dark-blue);

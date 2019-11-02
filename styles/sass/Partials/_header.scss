@@ -1,7 +1,16 @@
 // header stylings here, may be some overlap with nav!
 
-header{
+.main-header{
     background-image: url(../textilee-assets/header-home.jpg); 
     background-size: cover;
-    height: 90vh;
+    height:100vh;
+    background-repeat: no-repeat;  
+    background-position: right;
+    
+} 
+
+.scissors {
+    position: relative;
+    top: 10%; 
+    width: 55%;
 }

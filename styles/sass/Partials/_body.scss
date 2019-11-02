@@ -12,14 +12,19 @@
     
 }   
 .lnt-flex{
-display: flex;  
+display: flex;
+justify-content: space-between;
 padding-top:150px;
+button{
+    background:$dark-blue;
+    color:white;
+}
 } 
 .lnt-text{ 
-    width: 70%; 
-    
-       
+    width: 60%; 
+    max-height: 100%; 
 
+    // find way to not have this text wrap to the next lines :(
 } 
 
 // section 2: "gallery-flex"
@@ -44,7 +49,9 @@ padding-top:150px;
 
 .four-features{
     display: flex; 
-    flex-direction: column;
+    flex-direction: column;  
+    
+
 }  
 .four-features-top{
     display: flex;
@@ -55,13 +62,35 @@ padding-top:150px;
 
 // section 4: 
 // do last looks confusing
+.text-image-section{
+    background: $dark-blue; 
+    button{
+        background: $light-blue;
+    } 
+} 
 
+.bottom-banner{
+    background-image: url(../textilee-assets/banner.jpg);
+    height:60vh;
+    background-position: center;
+}
 
 // section 5: 
 .last-section{
     text-align: center; 
     background: $light-blue;
-    height: 50vh; 
+    height: 60vh; 
     display:flex;
-    align-items: center;
-}
+    align-items: center; 
+    h2{
+        margin-top:60px;
+    }
+    button{
+        background: $dark-blue;
+        color: white; 
+        margin:50px 0 70px 0;
+    }
+} 
+
+
+    

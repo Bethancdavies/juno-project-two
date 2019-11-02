@@ -30,9 +30,9 @@ p
     list-style: none; 
     text-decoration: none;
 } 
-*{ 
-    border: red 2px solid;
-}
+// *{ 
+//     border: red 2px solid;
+// }
 
 // more general styling here for things, in future if entire project is mainly in one font avoid including in mix-in as the code becomes redundant.
 // text and font styling
@@ -43,7 +43,8 @@ h1{
 }   
 h2{
     @include pacifico(4.3rem,58px,$dark-blue);
-    letter-spacing: 2.7px;
+    letter-spacing: 2.7px; 
+    margin-bottom:20px;
 } 
 h3{
     @include pacifico(4.0rem,58px,$black);
@@ -66,4 +67,12 @@ p{
     @include lato (2rem,400,29px,$black);
 } 
 
-// button styling
+// button styling 
+button{ 
+    @include pacifico(2.7rem, 32px,null);  
+    letter-spacing:1.4px;
+    width:250px; 
+    padding: 5px 0;
+    border:none; 
+    margin-top:20px;
+} 

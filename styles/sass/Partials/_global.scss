@@ -35,7 +35,7 @@ p
 }
 
 // more general styling here for things, in future if entire project is mainly in one font avoid including in mix-in as the code becomes redundant.
-
+// text and font styling
 h1{
     @include pacifico (6.8rem,64px,$dark-blue); 
    padding-top: 40px; 
@@ -64,4 +64,6 @@ h6{
 } 
 p{ 
     @include lato (2rem,400,29px,$black);
-}
+} 
+
+// button styling

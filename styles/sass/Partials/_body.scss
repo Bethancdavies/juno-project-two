@@ -1,9 +1,67 @@
-// main body split up into sections 
-// section 1- "scissor-section" 
+// main body split up into sections  
+// for box shadow use +/- 15 variables
+// section 1: "learn-new-techniques" 
 
 .learn-new-techniques{
     background: $light-blue; 
-    height: 70vh; 
+    height: 75vh; 
+    text-align: left;
+    img{
+        box-shadow: -15px 15px $turquoise-blue;
+    }
     
+}   
+.lnt-flex{
+display: flex;  
+padding-top:150px;
+} 
+.lnt-text{ 
+    width: 70%; 
+    
+       
+
+} 
+
+// section 2: "gallery-flex"
+.gallery{
+    background: $dark-blue; 
+    img{
+        
+        margin: 50px 0;
+        padding: 10px;
+        width: 90%; 
+    }
+}
+
+.gallery-flex{
+    display:flex; 
+     
 }  
 
+// formatting still needed here add wrap 
+
+// section 3:four-features 
+
+.four-features{
+    display: flex; 
+    flex-direction: column;
+}  
+.four-features-top{
+    display: flex;
+} 
+.four-features-bottom{
+    display: flex;
+}
+
+// section 4: 
+// do last looks confusing
+
+
+// section 5: 
+.last-section{
+    text-align: center; 
+    background: $light-blue;
+    height: 50vh; 
+    display:flex;
+    align-items: center;
+}

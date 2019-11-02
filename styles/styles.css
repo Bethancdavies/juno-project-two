@@ -360,6 +360,16 @@ nav ul li {
   padding-left: 30px;
 }
 
+footer {
+  background: #1e1713;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
 .main-header {
   background-image: url(../textilee-assets/header-home.jpg);
   background-size: cover;
@@ -370,11 +380,78 @@ nav ul li {
 
 .scissors {
   position: relative;
-  top: 10%;
+  top: 15%;
   width: 55%;
 }
 
 .learn-new-techniques {
   background: #CCEDFB;
-  height: 70vh;
+  height: 75vh;
+  text-align: left;
+}
+
+.learn-new-techniques img {
+  -webkit-box-shadow: -15px 15px #0CADC0;
+          box-shadow: -15px 15px #0CADC0;
+}
+
+.lnt-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 150px;
+}
+
+.lnt-text {
+  width: 70%;
+}
+
+.gallery {
+  background: #1A315C;
+}
+
+.gallery img {
+  margin: 50px 0;
+  padding: 10px;
+  width: 90%;
+}
+
+.gallery-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.four-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.four-features-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.four-features-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.last-section {
+  text-align: center;
+  background: #CCEDFB;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

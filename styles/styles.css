@@ -448,6 +448,7 @@ footer p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background: #CCEDFB;
 }
 
 .four-features-top {
@@ -464,10 +465,48 @@ footer p {
 
 .text-image-section {
   background: #1A315C;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .text-image-section button {
   background: #CCEDFB;
+}
+
+.text-image-section p {
+  color: white;
+}
+
+.text-image-first-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text-image-first-column img {
+  -webkit-box-shadow: 15px 15px #0CADC0;
+          box-shadow: 15px 15px #0CADC0;
+}
+
+.text-image-second-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.text-image-second-column img {
+  -webkit-box-shadow: -15px 15px #0CADC0;
+          box-shadow: -15px 15px #0CADC0;
 }
 
 .bottom-banner {
@@ -496,4 +535,16 @@ footer p {
   background: #1A315C;
   color: white;
   margin: 50px 0 70px 0;
+}
+
+.blog-header {
+  background-image: url(../textilee-assets/blog-header.jpg);
+  background-size: cover;
+  height: 70vh;
+}
+
+.contact-header {
+  background-image: url(../textilee-assets/contact-header.jpg);
+  background-size: cover;
+  height: 70vh;
 }

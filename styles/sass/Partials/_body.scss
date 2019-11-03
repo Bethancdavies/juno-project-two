@@ -50,6 +50,7 @@ button{
 .four-features{
     display: flex; 
     flex-direction: column;  
+    background: $light-blue;
     
 
 }  
@@ -64,16 +65,35 @@ button{
 // do last looks confusing
 .text-image-section{
     background: $dark-blue; 
+    height: 90vh; 
+    display: flex;
     button{
         background: $light-blue;
     } 
+    p{
+        color: white;
+    }
 } 
-
+.text-image-first-column{
+    display: flex; 
+    flex-direction: column;
+    img{
+        box-shadow: 15px 15px $turquoise-blue;
+    }
+} 
+.text-image-second-column{
+    display: flex;
+    flex-direction: column-reverse;
+    img{
+        box-shadow: -15px 15px $turquoise-blue;
+    }
+}
 .bottom-banner{
     background-image: url(../textilee-assets/banner.jpg);
     height:60vh;
     background-position: center;
-}
+} 
+// still need to finish this section :(
 
 // section 5: 
 .last-section{

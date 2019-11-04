@@ -268,6 +268,10 @@ p {
   text-decoration: none;
 }
 
+* {
+  border: red 2px solid;
+}
+
 h1 {
   font-family: 'Pacifico', cursive;
   font-size: 6.8rem;
@@ -543,6 +547,18 @@ footer p {
   height: 70vh;
 }
 
+.top-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  background: grey;
+}
+
+.top-blog-text {
+  height: 100px;
+}
+
 .contact-header {
   background-image: url(../textilee-assets/contact-header.jpg);
   background-size: cover;
@@ -566,7 +582,7 @@ footer p {
           align-items: center;
 }
 
-fieldset {
+.contact-us-fieldset {
   -webkit-box-shadow: 15px 15px #0CADC0;
           box-shadow: 15px 15px #0CADC0;
   background: #1A315C;

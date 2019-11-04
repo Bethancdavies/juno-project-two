@@ -2,5 +2,14 @@
     background-image: url(../textilee-assets/blog-header.jpg);
     background-size: cover; 
     height: 70vh;
-
 } 
+.top-blog{
+    display: flex;
+    height: 100%; 
+    background:grey;
+} 
+
+.left-blog-flex{
+    display: flex; 
+    flex-direction: column;
+}

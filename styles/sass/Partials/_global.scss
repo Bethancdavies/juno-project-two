@@ -30,9 +30,9 @@ p
     list-style: none; 
     text-decoration: none;
 } 
-// *{ 
-//     border: red 2px solid;
-// }
+*{ 
+    border: red 2px solid;
+}
 
 // more general styling here for things, in future if entire project is mainly in one font avoid including in mix-in as the code becomes redundant.
 // text and font styling

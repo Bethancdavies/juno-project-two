@@ -1,0 +1,161 @@
+.blog-header{
+    background-image: url(../textilee-assets/blog-header.jpg);
+    background-size: cover; 
+    height: 70vh;
+} 
+.top-blog-flex{
+    display: flex;
+    height: 100%; 
+    background: $light-blue;
+}     
+   .left-blog img{ 
+        box-shadow: 15px 15px $turquoise-blue;
+        z-index: 1;
+        width:calc(100% - 15px);
+                      
+    }
+      
+.top-blog-text{
+    padding:60px 60px 100px 80px;
+    background: $dark-green;
+    border-right: $turquoise-blue 15px solid;
+    border-bottom: $turquoise-blue 15px solid;
+    :nth-child(2){
+        color: $light-blue;
+    }
+    p{
+        color: white;
+        padding-top:20px;
+    }
+    
+} 
+.right-blog{
+    height:50%;
+    background: $dark-green;
+    margin-left:50px; 
+    margin-top:100px;
+    width:50%; 
+    img{
+       width:95%;
+       margin-left: 5%; 
+       margin-top:-5%;
+
+    }
+    
+    p, li{
+        color: white;
+    }
+    
+} 
+.left-blog-flex{
+    display: flex; 
+    flex-direction: column;
+    
+
+} 
+.left-blog{
+    width:2000px;
+    margin-top: -150px; 
+    margin-right: 100px;
+}
+.right-blog-text{
+    padding: 20px 40px 40px 20px; 
+    li{ 
+        @include lato(2rem,400,auto,white);
+        padding: 10px;
+        list-style: disc; 
+        margin-left: 30px;
+    }
+}
+
+// two comment section of blog 
+
+.comment-flex{ 
+    display: flex;
+    padding: 50px 0; 
+    width:70%;
+
+    img{
+        margin-right:150px;
+    }
+} 
+.comments{
+    background: $light-blue;
+    h3{
+        padding-top: 50px;
+    }
+} 
+
+.comment-flex p:nth-of-type(1){
+    color: $dark-blue;
+    padding-bottom: 5px;
+} 
+
+// blog form styling 
+
+.post-comment-fieldset{
+   width:70%; 
+   min-width: 600px;
+   height: 100%;
+   background: $light-blue;
+   border: none; 
+   padding-bottom: 60px;
+   display: flex;
+   flex-direction: column; 
+   [input] #name {
+       width: 48%
+   }
+   
+}
+
+.post-comment-bg{
+    background: $light-blue;
+}  
+
+input[type="text"],
+input[type="email"]{
+    width:45%;
+    border:none;
+    border-bottom: $turquoise-blue 4px solid; 
+    height: 40px;
+}
+input[type="email"]{
+    margin-left: 50px;
+} 
+input[type="text-area"]{  
+    border: $turquoise-blue 4px solid; 
+    height: 250px; 
+     
+} 
+.top-post-comment{
+    padding-bottom: 30px;
+} 
+
+input[type="submit"]{
+    @include pacifico(2.7rem, 32px,null);  
+    letter-spacing:1.4px;
+    width:100%; 
+    padding: 5px 0;
+    border:none; 
+    margin-top:40px;
+    margin-bottom:20px;
+} 
+
+.post-comment-fieldset input[type="submit"]{
+    background:$dark-blue;
+    color: white;
+}
+
+.post-comment-fieldset input[type="text-area"], 
+.post-comment-fieldset input[type="email"], 
+.post-comment-fieldset input[type="text"]
+{
+    background: $light-blue; 
+    @include lato (2rem,400,29px,$black);
+    letter-spacing: 2px; 
+    padding-bottom: 20px;
+    padding-left:30px; 
+}
+    
+
+

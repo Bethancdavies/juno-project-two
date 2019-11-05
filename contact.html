@@ -28,41 +28,44 @@
             <h1>Get in touch</h1>
         </div>
     </header>
-    <section class="bottom-section"> 
-        <div class="bottom-flex wrapper">
-        <div class="contact-form-div">
-            <form action="submit" class="contact-us">
-                <fieldset class="contact-us-fieldset">
-                    <label for="name" class="sr-only">Name</label>
-                    <input type="text" placeholder="Name" name="contact-us" id="name">
+    <section class="bottom-section">
+        <div class="bottom-flex wrapper"> 
+        <!-- START OF CONTACT-FORM -->
+            <div class="contact-form-div"> 
+                <form action="submit" class="contact-us">
+                    <fieldset class="contact-us-fieldset">
+                        <div class="top-contact-us">
+                            <label for="name" class="sr-only">Name</label>
+                            <input type="text" placeholder="Name" name="contact-us" id="name">
 
-                    <label for="email" class="sr-only">Confirm email</label>
-                    <input type="email" placeholder="Email" name="contact-us" id="email">
+                            <label for="email" class="sr-only">Confirm email</label>
+                            <input type="email" placeholder="Email" name="contact-us" id="email">
+                        </div>
+                        <label for="message" class="sr-only">Message</label>
+                        <input type="text-area" placeholder="Message" name="contact-us" id="message">
 
-                    <label for="message" class="sr-only">Message</label>
-                    <input type="text-area" placeholder="Message" name="contact-us" id="message">
+                        <label for="submit" class="sr-only">Submit</label>
+                        <input type="submit" placeholder="Submit" name="contact-us" id="submit" value="Submit">
+                    </fieldset>
+            </div>
 
-                    <label for="submit" class="sr-only">Submit</label>
-                    <input type="submit" placeholder="Submit" name="contact-us" id="submit" value="Submit">
-                </fieldset>
-        </div>
-        <div class="contact-info-div">
+            <div class="contact-info-div">
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-whatsapp"></i>
-        
 
-            <p>info@email.com</p>
-            <p>
-                123 456 7891 <br>
-                123 Queen West<br>
-                Unit 10 <br>
-                Toronto, Ontario <br>
-                1M1 1M1<br>
-            </p>
+
+                <p>info@email.com</p>
+                <p>
+                    123 456 7891 <br>
+                    123 Queen West<br>
+                    Unit 10 <br>
+                    Toronto, Ontario <br>
+                    1M1 1M1<br>
+                </p>
+            </div>
         </div>
-     </div>
     </section>
 
     <footer>

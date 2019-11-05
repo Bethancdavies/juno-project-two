@@ -50,42 +50,70 @@ button{
 .four-features{
     display: flex; 
     flex-direction: column;  
-    background: $light-blue;
+    background: $light-blue; 
+    height: 95vh; 
+    padding-top:100px;
+    
     
 
 }  
 .four-features-top{
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 60px;
+
 } 
 .four-features-bottom{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    word-wrap: break-word;
+} 
+.feature{
+    width:45%;
 }
 
 // section 4: 
 // do last looks confusing
 .text-image-section{
     background: $dark-green; 
-    height: 90vh; 
+    height: 95vh; 
     display: flex;
     button{
         background: $light-blue;
     } 
     p{
         color: white;
-    }
+    } 
+    
 } 
 .text-image-first-column{
     display: flex; 
+    margin-right:100px;
     flex-direction: column;
+    justify-content: space-between;
     img{
         box-shadow: 15px 15px $turquoise-blue;
+        margin-top: -60px;
     }
+}  
+.left-text{ 
+    text-align: right; 
+    padding: 0 0 60px 60px;
+
 } 
+.right-text{ 
+    padding: 60px 60px 0 0;
+}
 .text-image-second-column{
     display: flex;
-    flex-direction: column-reverse;
+    margin-left: 100px;
+    flex-direction: column;
+    justify-content: space-between;
     img{
         box-shadow: -15px 15px $turquoise-blue;
+        margin-bottom: -60px;
     }
 }
 .bottom-banner{

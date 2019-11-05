@@ -2,7 +2,8 @@
     background-image: url(../textilee-assets/blog-header.jpg);
     background-size: cover; 
     height: 70vh;
-} 
+}  
+
 .top-blog-flex{
     display: flex;
     height: 100%; 
@@ -116,14 +117,14 @@ input[type="text"],
 input[type="email"]{
     width:45%;
     border:none;
-    border-bottom: $turquoise-blue 4px solid; 
+    border-bottom: $turquoise-blue 2px solid; 
     height: 40px;
 }
 input[type="email"]{
     margin-left: 50px;
 } 
 input[type="text-area"]{  
-    border: $turquoise-blue 4px solid; 
+    border: $turquoise-blue 2px solid; 
     height: 250px; 
      
 } 

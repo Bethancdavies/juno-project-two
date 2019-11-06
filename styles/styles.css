@@ -245,6 +245,12 @@ html {
   margin: 0 auto;
 }
 
+@media (max-width: 1000px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
 img {
   max-width: 100%;
   padding: 0;
@@ -278,7 +284,7 @@ h1 {
   width: 60%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   h1 {
     font-size: 5.5rem;
     margin-top: 80px;
@@ -295,7 +301,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   h2 {
     font-size: 3.4rem;
   }
@@ -310,7 +316,7 @@ h3 {
   letter-spacing: 4.3px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   h3 {
     font-size: 2.8rem;
   }
@@ -325,7 +331,7 @@ h4 {
   letter-spacing: 2.5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   h4 {
     font-size: 3rem;
   }
@@ -339,7 +345,7 @@ h5 {
   color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   h5 {
     font-size: 2.5rem;
   }
@@ -354,7 +360,7 @@ h6 {
   letter-spacing: 1.7px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   h6 {
     font-size: 2rem;
   }
@@ -369,7 +375,7 @@ p {
   letter-spacing: 2px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   p {
     font-size: 1.6rem;
   }
@@ -442,7 +448,7 @@ footer p {
   background-position: right;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .main-header {
     background-position: center;
   }
@@ -450,14 +456,14 @@ footer p {
 
 .scissors {
   position: relative;
-  top: 10%;
+  top: 5%;
+  left: 0;
   width: 55%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .scissors {
-    top: 10%;
-    width: 70%;
+    top: 60px;
   }
 }
 
@@ -488,7 +494,7 @@ footer p {
   padding-top: 150px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .lnt-flex {
     padding-top: 50px;
   }
@@ -504,7 +510,7 @@ footer p {
   max-height: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .lnt-text {
     width: 90%;
   }
@@ -560,7 +566,6 @@ footer p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  word-wrap: break-word;
 }
 
 .feature {
@@ -588,7 +593,7 @@ footer p {
   display: flex;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .text-image-section {
     display: block;
     height: 60vh;
@@ -623,7 +628,7 @@ footer p {
   margin-top: -60px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .text-image-first-column img {
     display: none;
   }
@@ -634,8 +639,20 @@ footer p {
   padding: 0 0 60px 60px;
 }
 
+@media (max-width: 1000px) {
+  .left-text {
+    padding: 0 0 10px 60px;
+  }
+}
+
 .right-text {
   padding: 60px 60px 0 0;
+}
+
+@media (max-width: 1000px) {
+  .right-text {
+    padding: 0px 60px 0 0;
+  }
 }
 
 .text-image-second-column {
@@ -658,7 +675,7 @@ footer p {
   margin-bottom: -60px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .text-image-second-column img {
     display: none;
   }
@@ -739,7 +756,7 @@ footer p {
   width: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .right-blog {
     display: none;
   }
@@ -794,7 +811,7 @@ footer p {
   width: 70%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .comment-flex {
     width: 100%;
   }
@@ -853,7 +870,7 @@ input[type="email"] {
   margin-left: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   input[type="email"] {
     margin-left: 10px;
   }
@@ -911,7 +928,7 @@ input[type="submit"] {
   padding-bottom: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .bottom-section {
     padding-bottom: 40px;
   }
@@ -929,7 +946,7 @@ input[type="submit"] {
           align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .bottom-flex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -948,13 +965,13 @@ input[type="submit"] {
   padding: 20px 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .contact-info-div p:nth-of-type(1) {
     padding: 0;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .contact-info-div {
     padding-top: 40px;
   }
@@ -979,7 +996,7 @@ input[type="submit"] {
   margin-top: -150px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .contact-us-fieldset {
     width: 500px;
   }

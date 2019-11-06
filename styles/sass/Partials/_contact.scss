@@ -55,7 +55,9 @@
     @include tablet{
         width:500px;
     }
-}  
+}   
+
+// cross browser testing, this width and height are not shown in chrome?
 
 
 

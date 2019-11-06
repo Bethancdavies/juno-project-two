@@ -6,7 +6,10 @@ html{
     .wrapper {
         max-width: 1200px;
         width: 85%;
-        margin: 0 auto;
+        margin: 0 auto; 
+        @include tablet{
+            width: 90%;
+        }
     }
 // stripping of element styling 
 img {

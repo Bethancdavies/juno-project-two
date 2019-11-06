@@ -75,7 +75,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    word-wrap: break-word;
+    
 } 
 .feature{
     width:49%;
@@ -129,10 +129,16 @@ button{
 .left-text{ 
     text-align: right; 
     padding: 0 0 60px 60px;
+    @include tablet{
+        padding: 0 0 10px 60px;
+    }
 
 } 
 .right-text{ 
     padding: 60px 60px 0 0; 
+    @include tablet{
+        padding: 0px 60px 0 0;
+    }
     
 }
 .text-image-second-column{

@@ -53,7 +53,10 @@ h2{
     letter-spacing: 2.7px; 
     margin-bottom:20px;
     @include tablet{
-        font-size:3.4rem;
+        font-size:2.8rem;
+    }
+    @include mobile{
+        font-size: 2rem;
     }
 } 
 h3{
@@ -69,6 +72,10 @@ h4{
     letter-spacing: 2.5px;
     @include tablet{
         font-size:3rem;
+        line-height: 40px;
+    }
+    @include mobile{
+        font-size:2rem;
     }
 } 
 h5{
@@ -91,6 +98,12 @@ p{
     letter-spacing: 2px; 
     @include tablet{
         font-size:1.6rem;
+        line-height: 25px;
+        
+    }
+    @include mobile{
+        font-size:1.2rem;
+        line-height: 20px;
     }
 } 
 
@@ -101,6 +114,20 @@ button{
     width:250px; 
     padding: 5px 0;
     border:none; 
-    margin-top:20px; 
+    margin-top:20px;    
+}   
+// media buttons
+button{
+    @include tablet{
+        width:175px;
+        font-size: 2rem;
+        margin-top:10px;
+    } 
+    @include mobile{
+        width:120px;
+        font-size: 1.5rem;
+        
 
-} 
+    }
+}
+

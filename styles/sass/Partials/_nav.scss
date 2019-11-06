@@ -21,6 +21,9 @@ letter-spacing: 1.4px;
     @include lato(2rem,bold,29px,$dark-blue); 
     letter-spacing: 1.4px;
     transition: border-bo 0.2s;
+    @include tablet{ 
+        font-size: 1rem;
+    }
 }
 .flex-nav a:hover{
     border-bottom: 2px solid $turquoise-blue;
@@ -28,5 +31,15 @@ letter-spacing: 1.4px;
 }
 
 
-// TOGGLE NAV STYLING
+// TOGGLE NAV STYLING 
 
+.burger-menu{
+    position:fixed;
+    font-size: 4rem; 
+    right: 30px;
+    top: 30px;
+    opacity: 0;
+    @include mobiile{
+        opacity:100;
+    }
+}

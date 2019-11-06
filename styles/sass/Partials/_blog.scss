@@ -112,6 +112,12 @@
    [input] #name {
        width: 48%
    }
+   @include mobile{
+       min-width:350px;
+   } 
+   @include tablet{
+       min-width: 500px;
+   }
    
 }
 
@@ -129,7 +135,7 @@ input[type="email"]{
 input[type="email"]{
     margin-left: 50px; 
     @include tablet{
-        margin-left:10px;;
+        margin-left:10px;
     }
 } 
 input[type="text-area"]{  
@@ -165,6 +171,11 @@ input[type="submit"]{
     letter-spacing: 2px; 
     padding-bottom: 20px;
     padding-left:30px; 
+    @include mobile{
+        font-size: 1.5rem; 
+        padding-bottom: 10px; 
+        padding-left: 10px;
+    }
 }
     
 

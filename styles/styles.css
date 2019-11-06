@@ -462,6 +462,18 @@ button {
   transition: border-bo 0.2s;
 }
 
+@media (max-width: 1000px) {
+  .flex-nav a {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .flex-nav a {
+    display: none;
+  }
+}
+
 .flex-nav a:hover {
   border-bottom: 2px solid #0CADC0;
 }
@@ -472,6 +484,12 @@ button {
   right: 30px;
   top: 30px;
   opacity: 0;
+}
+
+@media (max-width: 400px) {
+  .burger-menu {
+    opacity: 1;
+  }
 }
 
 footer {
@@ -972,6 +990,18 @@ footer p {
   width: 48%;
 }
 
+@media (max-width: 400px) {
+  .post-comment-fieldset {
+    min-width: 350px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .post-comment-fieldset {
+    min-width: 500px;
+  }
+}
+
 .post-comment-bg {
   background: #CCEDFB;
 }
@@ -1033,6 +1063,16 @@ input[type="submit"] {
   letter-spacing: 2px;
   padding-bottom: 20px;
   padding-left: 30px;
+}
+
+@media (max-width: 400px) {
+  .post-comment-fieldset input[type="text-area"],
+  .post-comment-fieldset input[type="email"],
+  .post-comment-fieldset input[type="text"] {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
 }
 
 .contact-header {
@@ -1108,7 +1148,7 @@ input[type="submit"] {
   background: #184051;
   border: none;
   height: 100%;
-  width: 800px;
+  width: 750px;
   min-width: 500px;
   padding: 40px;
   margin-top: -150px;
@@ -1117,6 +1157,13 @@ input[type="submit"] {
 @media (max-width: 1000px) {
   .contact-us-fieldset {
     width: 500px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-us-fieldset {
+    width: 200px;
+    height: 60%;
   }
 }
 

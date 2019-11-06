@@ -48,12 +48,16 @@
     background: $dark-green; 
     border: none;
     height:100%;
-    width:800px;
+    width:750px;
     min-width: 500px; 
     padding: 40px;
     margin-top:-150px; 
     @include tablet{
-        width:500px;
+        width: 500px;
+    } 
+    @include mobile{
+        width:200px;
+        height:60%;
     }
 }   
 
